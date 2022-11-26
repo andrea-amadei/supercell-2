@@ -1,0 +1,62 @@
+{
+  "ab": {
+    "bar": "baz",
+    "baz": "foo",
+    "crux": "foo",
+    "foo": "crux"
+  },
+  "bc": {
+    "bar": "bar",
+    "baz": "foo",
+    "crux": "bar",
+    "foo": "foo"
+  },
+  "cd": {
+    "bar": "foo",
+    "baz": "foo",
+    "crux": "crux",
+    "foo": "crux"
+  },
+  "de": {
+    "bar": "bar",
+    "baz": "bar",
+    "crux": "baz",
+    "foo": "crux"
+  },
+  "ef": {
+    "bar": "crux",
+    "baz": "bar",
+    "crux": "bar",
+    "foo": "baz"
+  },
+  "fg": {
+    "bar": "foo",
+    "baz": "baz",
+    "crux": "foo",
+    "foo": "baz"
+  },
+  "gh": {
+    "bar": "bar",
+    "baz": "foo",
+    "crux": "baz",
+    "foo": "crux"
+  },
+  "hi": {
+    "bar": "crux",
+    "baz": "baz",
+    "crux": "foo",
+    "foo": "crux"
+  },
+  "ij": {
+    "bar": "crux",
+    "baz": "bar",
+    "crux": "crux",
+    "foo": "crux"
+  },
+  "jk": {
+    "bar": "foo",
+    "baz": "bar",
+    "crux": "bar",
+    "foo": "baz"
+  }
+}
