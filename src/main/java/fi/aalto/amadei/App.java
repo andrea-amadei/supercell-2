@@ -31,6 +31,13 @@ public class App implements Callable<Integer> {
             return 1;
         }
 
+        // Checks if dedicated threads are not negative or zero
+        if(nParsingThreads <= 0)
+            nParsingThreads = Constants.DEFAULT_PARSING_THREADS;
+
+        if(nComputingThreads <= 0)
+            nComputingThreads = Constants.DEFAULT_COMPUTING_THREADS;
+
         // Check if the file can be opened
         try {
             ComputeController computeController = new ComputeController(nParsingThreads, nComputingThreads);
